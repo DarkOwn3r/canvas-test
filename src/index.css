@@ -1,3 +1,8 @@
+html,
+body {
+  overflow: hidden;
+}
+
 body {
   justify-content: center;
   background: #202020;
@@ -11,4 +16,5 @@ canvas {
   border-right: none;
   image-rendering: pixelated;
   height: 100%;
+  max-width: 100%;
 }
